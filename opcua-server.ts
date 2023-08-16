@@ -1,9 +1,10 @@
 import { OPCUAServer, DataType } from 'node-opcua'
+import 'dotenv/config';
 
 
 const server = new OPCUAServer({
-    port: 62640,
-    resourcePath: "/UA/MyServer",
+    port: Number(process.env.OPCUA_PORT) || 62640,
+    resourcePath: process.env.RESOURCE_PATH || "/UA/MyServer",
 });
 
 const post_initialize = () => {
