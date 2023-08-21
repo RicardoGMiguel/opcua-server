@@ -38,14 +38,15 @@ code .
 
 ### Edição das variáveis de ambiente
 
+- Copie o arquivo ".env.example";
+- Renomeie o arquivo para ".env";
+
 -Abra um terminal, e descubra o ip da rede que a máquina de desenvolvimento está conectada.
 
 ```
 ipconfig
 ```
 
-- Copie o arquivo ".env.example";
-- Renomeie o arquivo para ".env";
 - Configure as variáveis de ambinente no arquivo .env:
 
 ```
