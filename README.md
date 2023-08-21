@@ -38,7 +38,12 @@ yarn
 ipconfig
 ```
 
-- Abra o projeto do servidor OPC-UA no Visual Studio Code;
+- Abra o projeto do servidor OPC-UA no Visual Studio Code
+
+```
+code .
+```
+
 - Copie o arquivo ".env.example";
 - Renomeie o arquivo para ".env";
 - Configure as variáveis de ambinente no arquivo .env:
