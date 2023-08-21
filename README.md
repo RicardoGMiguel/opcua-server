@@ -24,7 +24,7 @@ git clone https://github.com/RicardoGMiguel/opcua-server.git
 - Instale as dependências
 
 ```
-cd opcua-mqtt-edge
+cd opcua-server
 ```
 ```
 yarn
