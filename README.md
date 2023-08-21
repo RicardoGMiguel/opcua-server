@@ -30,18 +30,18 @@ cd opcua-server
 yarn
 ```
 
+- Abra o projeto do servidor OPC-UA no Visual Studio Code
+
+```
+code .
+```
+
 ### Edição das variáveis de ambiente
 
 -Abra um terminal, e descubra o ip da rede que a máquina de desenvolvimento está conectada.
 
 ```
 ipconfig
-```
-
-- Abra o projeto do servidor OPC-UA no Visual Studio Code
-
-```
-code .
 ```
 
 - Copie o arquivo ".env.example";
